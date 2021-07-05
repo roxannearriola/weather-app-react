@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "./Form";
 
 import "./Weather.css";
 
@@ -15,6 +16,7 @@ export default function Weather() {
 
 	return (
 		<div className="Weather">
+			<Form />
 			<div className="overview">
 				<div className="summary-current-weather">
 					<div className="current-description">
