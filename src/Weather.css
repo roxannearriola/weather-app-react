@@ -1,0 +1,86 @@
+.Weather {
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom: 15px;
+	margin-top: 30px;
+	padding: 45px 30px;
+}
+
+.Weather h1,
+.Weather small {
+	font-weight: 300;
+}
+
+.Weather h1 {
+	display: inline;
+	font-size: 80px;
+}
+
+.Weather h2 {
+	display: inline;
+	font-size: 25px;
+	font-weight: 400;
+	margin-left: 15px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.Weather small {
+	font-size: 15px;
+}
+
+.Weather ul {
+	list-style-type: none;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0;
+}
+
+.Weather .summary-current-weather {
+	color: white;
+	font-family: "Quicksand", sans-serif;
+	margin-top: 50px;
+}
+.Weather .current-weather-temp,
+.Weather .current-weather-units {
+	display: inline;
+}
+
+.Weather .current-weather-units {
+	position: relative;
+	top: -45px;
+}
+
+.Weather .current-weather-units a {
+	color: white;
+	text-decoration: none;
+	transition: all 100ms ease-in-out;
+}
+
+.Weather .current-weather-units a:hover {
+	color: #330867;
+	text-decoration: none;
+}
+
+.Weather .current-details {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.Weather .main-icon {
+	width: 65px;
+}
+
+.Weather .city {
+	font-family: "Quicksand", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.Weather .humidity,
+.Weather .wind {
+	font-weight: 600;
+	opacity: 0.6;
+}
