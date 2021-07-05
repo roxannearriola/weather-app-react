@@ -1,0 +1,16 @@
+.Footer {
+	color: #30cfd0;
+	font-size: 11px;
+	width: 400px;
+}
+
+.Footer a {
+	color: #330867;
+	text-decoration: none;
+	transition: all 150ms ease-in;
+}
+
+.Footer a:hover {
+	color: #61ecec;
+	cursor: pointer;
+}
